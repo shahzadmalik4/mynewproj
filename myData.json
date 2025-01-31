@@ -1,0 +1,22 @@
+{
+    "students":[
+        {
+            "Id":1,
+            "Name":"Sabir",
+            "Course":"Adse"
+        },
+        {
+            "Id":2,
+            "Name":"Muzammil",
+            "Course":"Hdse"
+        },
+        {
+            "Id":3,
+            "Name":"Sufiyaan",
+            "Course":"Cpism"
+        }
+
+    ]
+
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let urdu = parseInt(prompt("Enter Your Urdu Marks"));
+        let math = parseInt(prompt("Enter Your Math Marks"));
+        let english = parseInt(prompt("Enter Your English Marks"));
+        let chemistry = parseInt(prompt("Enter Your Chemistry Marks"));
+        let physics = parseInt(prompt("Enter Your Physics Marks"));
+
+
+        let totalMarks = 500;
+        let obtainMarks = urdu + math + english + chemistry + physics;
+
+        let percentage = obtainMarks / totalMarks * 100;
+
+        document.write(percentage);
+
+        if (percentage >= 80) {
+            document.write("Grade is A+")
+        }
+        else if (percentage >= 70) {
+            document.write("Grade is A")
+        }
+        else if (percentage >= 60) {
+            document.write("Grade is B")
+        }
+
+        else if (percentage >= 50) {
+            document.write("Grade is C")
+        }
+
+        else if (percentage >= 40) {
+            document.write("Grade is D")
+        }
+        else {
+            document.write("Your Grade is fail");
+        }
+
+
+
+
+
+    </script>
+</body>
+
+</html>

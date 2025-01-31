@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // console.log("Task1");
+        // console.log("Task2");
+        // console.log("Task3");
+
+        // console.log("Task1");
+        // setTimeout(()=>{
+
+        //     console.log("Task2")
+
+        // },3000)
+        // console.log("Task3")
+
+        // function address(callback)
+        // {
+        //     console.log("Malir");
+        //     callback();
+        // }
+        // function stdname()
+        // {
+        //     console.log("Hello Fahad")
+        // }
+
+        // address(stdname)
+
+        // const fetchData = new Promise((resolve,reject)=>{
+
+        //     resolve("data fetched")
+
+
+        // });
+
+        // fetchData.then((data1) => console.log(data1));
+
+        async function fetchData()
+        {
+
+            return "Data Successfully Fetched";
+
+        }
+        async function main() {
+
+            const data = await fetchData();
+            console.log(data);
+            
+        }
+        main();
+    </script>
+</body>
+</html>
